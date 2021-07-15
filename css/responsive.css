@@ -1,0 +1,30 @@
+@media (max-width: 1000px){
+	.burger-icon{
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+}
+
+@media (max-width: 1000px){
+	.fa-search{
+		display: none;
+	}
+}
+
+@media(max-width: 1000px){
+	.img-block{
+		display: block;
+	}
+	.img{
+		display: none;
+	}
+}
+
+@media(max-width: 800px){
+	input{
+		margin-left: 0px;
+		width: 200px;
+	} 
+}
