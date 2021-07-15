@@ -23,8 +23,31 @@
 }
 
 @media(max-width: 800px){
-	input{
+	form{
 		margin-left: 0px;
-		width: 200px;
+		flex-direction: column;
 	} 
+}
+
+
+@media(max-width: 1000px){
+	footer{
+		height: auto;
+		flex-direction: column;
+	} 
+
+	.f-text{
+		margin-top: 50px;
+		margin-left: 0px;
+	}
+
+	.f-text-2{
+		margin-top: 50px;
+		margin-left: 0px;	
+	}
+
+	.icones{
+		margin-top: 50px;
+		margin-left: 0px
+	}
 }
